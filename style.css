@@ -3,11 +3,37 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(0, 0, 0);  
     
-    color: #303030;
+    color: yellow;
     font: Verdana, Arial, Sans-Serif;
 }
+
+hoofdtitel {
+color:rgb(48, 124, 160))
+}
+
+
+
+.kleineMessi {
+margin-right: 10px;
+float:right;  
+}
+
+.talentmessi {
+margin-left: 10px;
+float:right; 
+}
+.prijzenbreder{
+width: 165px}
+
+.donkerblauw{
+color:rgb(61, 43, 226)
+}
+.paars{
+    color:rgb(162, 0, 255)
+}
+
 
 
 main {
@@ -18,6 +44,7 @@ main {
 
 
 article {
+    clear:both;
     text-align: justify;
 }
 
@@ -36,11 +63,62 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.messijong {
     float: left;
-    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+    
+}
+.kopje{
+float:right;
+
+}
+.sloppenwijk {
+   float: right;
+   margin-left: 15px;         
 }
 
+.achtergrondje{
+    background-image: url("afbeeldingen/campnou2.jpg");
+    background-size: cover;
+    
+}
+.anderekleur{
+color:yellow;
+}
+.begin{
+margin-bottom: 10px;
+}
+h1{
+margin-bottom: 1px
+}
+.koeman{
+float:left;
+width:100px;
+margin-right: 
+}
+.debuutjaren{
+float:right;
+margin-left: 10px
+}
+.basisplekmessi{
+float:right;
+width:170px;
+margin-left: 10px;
+margin-right: 5px    
+}
+
+
+
+.linkjes{
+color: rgb(47, 0, 255)
+}
+.goedechampionsleague{
+float:left;
+margin-right: 10px
+
+}
 .smalltext {
     font-size: 0.7em;
 }
@@ -54,14 +132,20 @@ a:hover {
     text-decoration: underline;
 }
 
+.messijong, .kleineMessi {
+    align-items: stretch;
+}
+.stretch{
+align-items: stretch;
+}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+    background-color: rgb(255, 0, 43);
+    overflow: visible;
 }
 
 nav ul li {
@@ -77,13 +161,71 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color:rgb(48, 124, 160);
+
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: red;
 }
 
+nav .submenu {
+
+  position: absolute;
+    display: none;
+}
+
+nav .submenu li {
+    display: block;
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+.submenu{
+width: 100px
+}
+nav .submenu2 {
+
+  position: absolute;
+    display: none;
+    text-align: center;
+}
+
+nav .submenu2 li {
+    display: block;
+
+}
+
+nav li:hover .submenu2 {
+    display: block;
+}
+.submenu2{
+width: 94px
+}
+
+nav .submenu3 {
+
+  position: absolute;
+    display: none;
+    text-align: center
+}
+
+nav .submenu3 li {
+    display: block;
+
+}
+
+nav li:hover .submenu3 {
+    display: block;
+}
+.submenu3{
+width: 97px
+
+}
+.submenu3 li{
+    overflow:hidden
+}
 
 
 
