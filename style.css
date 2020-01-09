@@ -1,4 +1,7 @@
 /* Basislayout */
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
@@ -19,23 +22,70 @@ color:rgb(48, 124, 160))
 margin-right: 10px;
 float:right;  
 }
-
-.talentmessi {
-margin-left: 10px;
-float:right; 
+img.messijong {
+float: left;
+margin-left: 15px;
+margin-top: 20px;
+}
+.sloppenwijk {
+   float: right;
+   margin-left: 15px;         
 }
 .prijzenbreder{
 width: 165px}
 
-.donkerblauw{
-color:rgb(61, 43, 226)
+.talentmessi {
+margin-left: 10px;
+float:right; 
+margin-top: 60px;
+margin-bottom: 30px;
 }
-.paars{
-    color:rgb(162, 0, 255)
+.rechterkant{
+float:right
+}
+.stretch{
+align-items: stretch;
+}
+.messijong, .kleineMessi {
+    align-items: stretch;
+}
+.anderekleur{
+color:yellow;
+}
+div.vierkantje {
+margin-right: 10px;
+margin-bottom: 30px
+border: 1px solid #ccc;
+float: left;
+width: 150px;
+}
+.koeman{
+float:left;
+width:100px;
+margin-right: 10px 
+}
+div.vierkantje:hover {
+  border: 4px solid rgb(152, 155, 17);
 }
 
+div.vierkantje img {
+  width: 100%;
+  height: auto;
+}
 
+div.tekstvierkantje {
+  padding: 5px;
+  text-align: center;
+}
+.debuutjaren{
+float:right;
+margin-left: 10px
+}
+.begin{
+margin-bottom: 10px;
+}
 
+/*belangrijke dingen*/
 main {
     margin: 0 auto;
     width: 700px;
@@ -55,89 +105,38 @@ header {
 }
 
 
-footer {
-    text-align: center;
-    padding-bottom: 10px;
+div.gallery {
+  margin-right: 10px;
+  margin-bottom: 30px
+  border: 1px solid #ccc;
+  float: left;
+  width: 223px;
+  height: 360px;
 }
 
-
-/* specifieke stijlen */
-
-img.messijong {
-    float: left;
-    margin-left: 15px;
-    margin-top: 20px;
-    
-    
-}
-.kopje{
-float:right;
-
-}
-.sloppenwijk {
-   float: right;
-   margin-left: 15px;         
+div.gallery:hover {
+  border: 2px solid rgb(152, 155, 17);
 }
 
-.achtergrondje{
-    background-image: url("afbeeldingen/campnou2.jpg");
-    background-size: cover;
-    
-}
-.anderekleur{
-color:yellow;
-}
-.begin{
-margin-bottom: 10px;
-}
-h1{
-margin-bottom: 1px
-}
-.koeman{
-float:left;
-width:100px;
-margin-right: 
-}
-.debuutjaren{
-float:right;
-margin-left: 10px
-}
-.basisplekmessi{
-float:right;
-width:170px;
-margin-left: 10px;
-margin-right: 5px    
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
 
-
+/*linkjes*/
 .linkjes{
 color: rgb(47, 0, 255)
 }
-.goedechampionsleague{
-float:left;
-margin-right: 10px
-
-}
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
 a:hover {
     text-decoration: underline;
 }
 
-.messijong, .kleineMessi {
-    align-items: stretch;
-}
-.stretch{
-align-items: stretch;
-}
+
 
 /* navigatiebalk */
 nav ul {
@@ -227,5 +226,16 @@ width: 97px
     overflow:hidden
 }
 
+/*footer*/
 
+.donkerblauw{
+color:rgb(61, 43, 226)
+}
+.paars{
+    color:rgb(162, 0, 255)
+}
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
